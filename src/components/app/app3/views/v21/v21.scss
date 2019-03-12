@@ -1,0 +1,668 @@
+.a1_v21{
+  width: 1967px;
+  height: 990px;
+  // background: yellow;
+  position: absolute;
+  left: 1414px;
+  top: 148px;
+  padding: 0;
+    margin: 0;
+  .baidu{
+    width: 1967px;
+    height: 990px;
+    // background: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .shoufeizhan{
+    width: 258px;
+    height: 60px;
+    background: #143866;
+    border-radius: 8px;
+    position: absolute;
+    left: 776px;
+    top: 26px;
+    cursor: pointer;
+    .shoufeiicon{
+      width: 30px;
+      height: 40px;
+      background: url(./img/shoufei.png) no-repeat center;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 20px;
+      top: 12px;
+    }
+    .shoufeiword{
+      width: 153px;
+      height: 54px;
+      position: absolute;
+      left: 62px;
+      top: 4px;
+      font-size: 30px;
+      font-family: "MF_LangQian";
+      line-height: 54px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 8px;
+    }
+  }
+  .shoufeilist{
+    width: 258px;
+    height: 238px;
+    background: rgba(25, 43, 63, 0.9);
+    position: absolute;
+    left: 777px;
+    top: 80px;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .sonshoufeilist{
+      width: 100%;
+      font-size: 26px;
+      line-height: 58px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 2px;
+      cursor: pointer
+    }
+    .sonshoufeilist:hover {
+        background: #324c6d;
+        color: yellow;
+      }
+      .active {
+        background: #324c6d;
+        color: yellow;
+      }
+    
+  }
+  .keyunzhan{
+    width: 258px;
+    height: 60px;
+    background: #143866;
+    border-radius: 8px;
+    position: absolute;
+    left: 1075px;
+    top: 26px;
+    cursor: pointer;
+    .keyunicon{
+      width: 30px;
+      height: 40px;
+      background: url(./img/keyun.png) no-repeat center;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 20px;
+      top: 12px;
+    }
+    .keyunword{
+      width: 153px;
+      height: 54px;
+      position: absolute;
+      left: 62px;
+      top: 4px;
+      font-size: 30px;
+      font-family: "MF_LangQian";
+      line-height: 54px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 8px;
+    }
+  }
+  .keyunlist{
+    width: 257px;
+    height: 238px;
+    // background: #143866;
+    background: rgba(25, 43, 63, 0.9);
+    position: absolute;
+    left: 1075px;
+    top: 80px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .sonkeyunlist {
+      // list-style: none;
+      // width: 257px;
+      // height: 54px;
+      font-size: 26px;
+      // font-family: "MF_LangQian";
+      line-height: 54px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+    .sonkeyunlist:hover {
+      background: #324c6d;
+      color: yellow;
+    }
+    .active {
+      background: #324c6d;
+      color: yellow;
+    }
+  }
+  .gaosu{
+    width: 258px;
+    height: 60px;
+    background: #143866;
+    border-radius: 8px;
+    position: absolute;
+    left: 477px;
+    top: 26px;
+    cursor: pointer;
+    .gaosuicon{
+      width: 30px;
+      height: 40px;
+      background: url(./img/gaosu.png) no-repeat center;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 20px;
+      top: 12px;
+    }
+    .gaosuword{
+      width: 153px;
+      height: 54px;
+      position: absolute;
+      left: 62px;
+      top: 4px;
+      font-size: 30px;
+      font-family: "MF_LangQian";
+      line-height: 54px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 8px;
+    }
+  }
+  .gaosulist{
+    width: 257px;
+    height: 238px;
+    // background: #143866;
+    background: rgba(25, 43, 63, 0.9);
+    position: absolute;
+    left: 477px;
+    top: 80px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .songaosulist {
+      font-size: 26px;
+      // font-family: "MF_LangQian";
+      line-height: 54px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+    .songaosulist:hover {
+      background: #324c6d;
+      color: yellow;
+    }
+    .active {
+      background: #324c6d;
+      color: yellow;
+    }
+  }
+  .kuang1{
+    width: 357px;
+    height: 123px;
+    position: absolute;
+    left: 25px;
+    top: 27px;
+    background: url(./img/1.png) no-repeat center;
+    background-size: 100% 100%;
+    :nth-child(1) {
+      width: 200px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 7px;
+      top: 15px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(2) {
+      width: 200px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 7px;
+      top: 61px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(3) {
+      width: 150px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 207px;
+      top: 15px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(4) {
+      width: 150px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 207px;
+      top: 61px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+  }
+  .kuang2 {
+    width: 524px;
+    height: 174px;
+    position: absolute;
+    left: 1440px;
+    top: 38px;
+    background: url(./img/2.png) no-repeat center;
+    background-size: 100% 100%;
+    :nth-child(1) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 0px;
+      top: 65px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(2) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 131px;
+      top: 65px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(3) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 258px;
+      top: 18px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(4) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 258px;
+      top: 66px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(5) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 258px;
+      top: 116px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(6) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 388px;
+      top: 21px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(7) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 388px;
+      top: 66px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(8) {
+      width: 128px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 388px;
+      top: 116px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+  }
+  .kuang4 {
+    width: 531px;
+    height: 170px;
+    position: absolute;
+    left: 1431px;
+    top: 807px;
+    background: url(./img/4.png) no-repeat center;
+    background-size: 100% 100%;
+    :nth-child(1) {
+      width: 122px;
+      height: 30px;
+      position: absolute;
+      // background: yellow;
+      left: 9px;
+      top: 38px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 30px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(2) {
+      width: 122px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 9px;
+      top: 108px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(3) {
+      width: 122px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 131px;
+      top: 40px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 40px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(4) {
+      width: 152px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 243px;
+      top: 20px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(5) {
+      width: 152px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 243px;
+      top: 67px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(6) {
+      width: 117px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 403px;
+      top: 20px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(7) {
+      width: 117px;
+      height: 42px;
+      position: absolute;
+      // background: yellow;
+      left: 403px;
+      top: 68px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 42px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(8) {
+      width: 389px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 131px;
+      top: 115px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 34px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+  }
+  .kuang3 {
+    width: 537px;
+    height: 208px;
+    position: absolute;
+    left: 30px;
+    top: 767px;
+    background: url(./img/3.png) no-repeat center;
+    background-size: 100% 100%;
+    :nth-child(1) {
+      width: 176px;
+      height: 27px;
+      position: absolute;
+      // background: yellow;
+      left: 0px;
+      top: 46px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 27px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(2) {
+      width: 176px;
+      height: 44px;
+      position: absolute;
+      // background: yellow;
+      left: 0px;
+      top: 102px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 44px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(3) {
+      width: 176px;
+      height: 44px;
+      position: absolute;
+      // background: yellow;
+      left: 0px;
+      top: 134px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 44px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(4) {
+      width: 87px;
+      height: 88px;
+      position: absolute;
+      // background: yellow;
+      left: 179px;
+      top: 28px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 88px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(5) {
+      width: 139px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 268px;
+      top: 30px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(6) {
+      width: 139px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 268px;
+      top: 66px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(7) {
+      width: 139px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 400px;
+      top: 30px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(8) {
+      width: 139px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 400px;
+      top: 66px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(9) {
+      width: 358px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 179px;
+      top: 100px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    :nth-child(10) {
+      width: 358px;
+      height: 46px;
+      position: absolute;
+      // background: yellow;
+      left: 179px;
+      top: 130px;
+      font-size: 16px;
+      // font-family: "MF_LangQian";
+      line-height: 46px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+  }
+}

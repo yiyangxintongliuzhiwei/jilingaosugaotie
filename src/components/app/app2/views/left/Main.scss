@@ -1,0 +1,158 @@
+#left{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 1200px;
+  box-sizing: border-box;
+  .vipProfile{
+    position: absolute;
+    left: 29px;
+    top: 47px;
+    width: 1153px;
+    height: 185px;
+    color: #fff;
+    .vipProfileTitle{
+      position: absolute;
+      left: 352px;
+      top:29px;
+      width: 475px;
+      height: 62px;
+      line-height: 62px;
+      text-align: center;
+      font-size: 32px;
+      text-shadow: 0 3px 0 #000;
+    }
+    .vipProfileDiv1{
+      position: absolute;
+      left: 22px;
+      top: 124px;
+      width: 1100px;
+      height: 84px;
+      line-height: 84px;
+      color: #00ffff;
+      text-align: center;
+      font-size: 30px;
+    }
+    .vipProfileDiv2{
+      text-indent: 50px;
+      width:1100px;
+      height: 174px;
+      position: absolute;
+      top: 205px;
+      left: 33px;
+      font-size: 24px;
+      line-height: 47px;
+      padding-top: 20px;
+    }
+  }
+  .resourceProfile{
+    position: absolute;
+    width: 1080px;
+    height: 312px;
+    left: 68px;
+    top: 477px;
+    .resourceProfileTitle{
+      position: absolute;
+      left: 352px;
+      top: -2px;
+      width: 368px;
+      height: 62px;
+      color: #fff;
+      line-height: 62px;
+      text-align: center;
+      font-size: 32px;
+      text-shadow: 0 3px 0 #000;
+    }
+    .resProfile1{
+      position: absolute;
+      left: 110px;
+      top: 100px;
+      width: 234px;
+      height: 64px;
+      text-shadow: 0 0 15px #000;
+    }
+    .resProfile2{
+      position: absolute;
+      left: 112px;
+      top: 196px;
+      width: 234px;
+      height: 64px;
+      text-shadow: 0 0 15px #000;
+    }
+    .resProfile3{
+      position: absolute;
+      left: 451px;
+      top: 138px;
+      width: 234px;
+      height: 64px;
+      text-shadow: 0 0 15px #000;
+    }
+    .resProfile4{
+      position: absolute;
+      left: 801px;
+      top: 100px;
+      width: 234px;
+      height: 64px;
+      text-shadow: 0 0 15px #000;
+    }
+    .resProfile5{
+      position: absolute;
+      left: 801px;
+      top: 196px;
+      width: 234px;
+      height: 64px;
+      text-shadow: 0 0 15px #000;
+
+    }
+  }
+  .alarmMonitor{
+    position: absolute;
+    width: 1080px;
+    height: 312px;
+    left: 68px;
+    top: 825px;
+    .alarmMonitorTitle{
+      position: absolute;
+      left: 352px;
+      top: -2px;
+      width: 368px;
+      height: 62px;
+      color: #fff;
+      line-height: 62px;
+      text-align: center;
+      font-size: 32px;
+      text-shadow: 0 3px 0 #000;
+    }
+    .g2-label{
+      position: absolute;
+      color: #00ffff;
+      font-size: 30px;
+      left: 58px;
+      top: 225px;
+    }
+    .g4-label{
+      position: absolute;
+      color: #00ffff;
+      font-size: 30px;
+      left: 608px;
+      top: 225px;
+    }
+    .alarmMonitor1{
+      position: absolute;
+      left: 363px;
+      top: 160px;
+      width: 76px;
+      height: 60px;
+      color: #ffe600;
+    }
+    .alarmMonitor2{
+      position: absolute;
+      left: 908px;
+      top: 160px;
+      width: 76px;
+      height: 60px;
+      color: #ffe600;
+    }
+  }
+}

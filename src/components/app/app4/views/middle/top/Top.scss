@@ -1,0 +1,620 @@
+#top{
+  // transition: all 0.3s;
+  .switch-enter-active {
+    animation: switch-in 0.6s;
+  }
+
+  .switch-leave-active {
+    animation: switch-out 0.6s;
+  }
+  @keyframes switch-in {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes switch-out {
+    0% {
+      transform: translateY(0px);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  }
+
+  .switch1-enter-active {
+    animation: switch1-in 0.6s;
+  }
+
+  .switch1-leave-active {
+    animation: switch1-out 0.6s;
+  }
+  @keyframes switch1-in {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes switch1-out {
+    0% {
+      transform: translateX(0px);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+  }
+}
+
+#top-chart,
+#top-chart-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1986px;
+  height: 800px;
+}
+
+#china-roam-in-user-number,
+#world-roam-in-user-number,
+#world-roam-out-user-number,
+#china-roam-out-user-number {
+  position: absolute;
+  left: 1150px;
+  width: 360px;
+  height: 120px;
+  border: 3px solid #028dff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(12, 50, 92, 0.4);
+
+  .user-number-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #cde0ff;
+    // border: 1px solid red;
+    font-size: 32px;
+  }
+
+  .user-number-value {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    // border: 1px solid red;
+  }
+}
+
+#china-roam-in-user-number,
+#world-roam-in-user-number
+ {
+  top: 24px;
+}
+
+#china-roam-out-user-number ,
+#world-roam-out-user-number
+{
+  top: 170px;
+}
+
+#jilin-roam-user-number {
+  position: absolute;
+  left: 1150px;
+  top: 54px;
+  width: 360px;
+  height: 240px;
+  border: 3px solid #028dff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(12, 50, 92, 0.3);
+
+  .user-number-title {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #cde0ff;
+    // border: 1px solid red;
+    font-size: 38px;
+  }
+
+  .user-number-value {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    height: 60px;
+    // border: 1px solid red;
+  }
+}
+
+#china-in-out-top {
+  position: absolute;
+  left: 1580px;
+  top: 24px;
+  width: 360px;
+  height: 770px;
+  border: 3px solid #028dff;
+  text-align: center;
+
+  #in-top,
+  #out-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    font-weight: 400;
+    // border: 1px solid red;
+    .top-title {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 40px;
+      // border: 1px solid white;
+      font-size: 24px;
+      line-height: 42px;
+      background-color: rgba(11, 71, 110, 0.5);
+    }
+
+    .top-content {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      width: 100%;
+      height: 345px;
+      // border: 1px solid green;
+      background-color: #082358;
+
+      .table {
+        position: relative;
+        width: 95%;
+        height: 325px;
+        margin: 2.5% 2.3%;
+        font-size: 16px;
+        border: 1px solid #054590;
+
+        .table-header {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 28.5px;
+          // border-bottom: 3px solid #028dff;
+          background-color: #002546;
+
+          .province,
+          .rank,
+          .user-number {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            line-height: 29px;
+            // border: 1px solid red;
+          }
+
+          .rank {
+            left: 0;
+            width: 20%;
+          }
+
+          .province {
+            left: 20%;
+            width: 50%;
+          }
+
+          .user-number {
+            left: 70%;
+            width: 30%;
+          }
+        }
+
+        .table-body {
+          position: absolute;
+          left: 0;
+          top: 28.5px;
+          width: 100%;
+          height: 296px;
+          background-color: #072860;
+          // border: 1px solid white;
+          color: #f6df08;
+
+          .table-body-item {
+            position: relative;
+            width: 100%;
+            height: 28.5px;
+            border-top: 1px solid #054590;
+
+            .province,
+            .rank,
+            .user-number {
+              position: absolute;
+              top: 0;
+              height: 100%;
+              line-height: 29px;
+              // border: 1px solid red;
+            }
+
+            .rank {
+              left: 0;
+              width: 20%;
+            }
+
+            .province {
+              left: 20%;
+              width: 50%;
+            }
+
+            .user-number {
+              left: 70%;
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #in-top {
+    top: 0;
+  }
+
+  #out-top {
+    top: 50%;
+  }
+}
+#world-in-out-top {
+    position: absolute;
+    left: 1580px;
+    top: 24px;
+    width: 360px;
+    height: 770px;
+    border: 3px solid #028dff;
+    text-align: center;
+  
+    #world-in-top,
+    #world-out-top {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 50%;
+      font-weight: 400;
+      // border: 1px solid red;
+      .top-title {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 40px;
+        // border: 1px solid white;
+        font-size: 24px;
+        line-height: 42px;
+        background-color: rgba(11, 71, 110, 0.5);
+      }
+  
+      .top-content {
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 100%;
+        height: 345px;
+        // border: 1px solid green;
+        background-color: #082358;
+  
+        .table {
+          position: relative;
+          width: 95%;
+          height: 325px;
+          margin: 2.5% 2.3%;
+          font-size: 16px;
+          border: 1px solid #054590;
+  
+          .table-header {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 28.5px;
+            // border-bottom: 3px solid #028dff;
+            background-color: #002546;
+  
+            .province,
+            .rank,
+            .user-number {
+              position: absolute;
+              top: 0;
+              height: 100%;
+              line-height: 29px;
+              // border: 1px solid red;
+            }
+  
+            .rank {
+              left: 0;
+              width: 20%;
+            }
+  
+            .province {
+              left: 20%;
+              width: 50%;
+            }
+  
+            .user-number {
+              left: 70%;
+              width: 30%;
+            }
+          }
+  
+          .table-body {
+            position: absolute;
+            left: 0;
+            top: 28.5px;
+            width: 100%;
+            height: 296px;
+            background-color: #072860;
+            // border: 1px solid white;
+            color: #f6df08;
+  
+            .table-body-item {
+              position: relative;
+              width: 100%;
+              height: 28.5px;
+              border-top: 1px solid #054590;
+  
+              .province,
+              .rank,
+              .user-number {
+                position: absolute;
+                top: 0;
+                height: 100%;
+                line-height: 29px;
+                // border: 1px solid red;
+              }
+  
+              .rank {
+                left: 0;
+                width: 20%;
+              }
+  
+              .province {
+                left: 20%;
+                width: 50%;
+              }
+  
+              .user-number {
+                left: 70%;
+                width: 30%;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    #in-top {
+      top: 0;
+    }
+  
+    #out-top {
+      top: 50%;
+    }
+    #world-in-top {
+        top: 0;
+      }
+    
+    #world-out-top {
+        top: 50%;
+    }
+  }
+  
+
+#jilin-in-out-top {
+  position: absolute;
+  left: 1580px;
+  top: 54px;
+  width: 360px;
+  height: 708px;
+  border: 3px solid #028dff;
+  text-align: center;
+
+  #in-top,
+  #out-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    font-weight: 400;
+    // border: 1px solid red;
+    .top-title {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 40px;
+      // border: 1px solid white;
+      font-size: 24px;
+      line-height: 42px;
+      background-color: rgba(11, 71, 110, 0.5);
+    }
+
+    .top-content {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      width: 100%;
+      height: 314px;
+      // border: 1px solid green;
+      background-color: #082358;
+
+      .table {
+        position: relative;
+        width: 95%;
+        height: 295px;
+        margin: 2.5% 2.3%;
+        font-size: 16px;
+        border: 1px solid #054590;
+
+        .table-header {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 28.5px;
+          // border-bottom: 3px solid #028dff;
+          background-color: #002546;
+
+          .province,
+          .rank,
+          .user-number {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            line-height: 29px;
+            // border: 1px solid red;
+          }
+
+          .rank {
+            left: 0;
+            width: 20%;
+          }
+
+          .province {
+            left: 20%;
+            width: 50%;
+          }
+
+          .user-number {
+            left: 70%;
+            width: 30%;
+          }
+        }
+
+        .table-body {
+          position: absolute;
+          left: 0;
+          top: 28.5px;
+          width: 100%;
+          height: 266px;
+          background-color: #072860;
+          // border: 1px solid white;
+          color: #f6df08;
+
+          .table-body-item {
+            position: relative;
+            width: 100%;
+            height: 28.5px;
+            border-top: 1px solid #054590;
+
+            .province,
+            .rank,
+            .user-number {
+              position: absolute;
+              top: 0;
+              height: 100%;
+              line-height: 29px;
+              // border: 1px solid red;
+            }
+
+            .rank {
+              left: 0;
+              width: 20%;
+            }
+
+            .province {
+              left: 20%;
+              width: 50%;
+            }
+
+            .user-number {
+              left: 70%;
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #in-top {
+    top: 0;
+  }
+
+  #out-top {
+    top: 50%;
+  }
+}
+#world-btn,
+#country-btn,
+#province-btn {
+  position: absolute;
+  left: 1256px;
+  width: 130px;
+  height: 130px;
+  line-height: 50px;
+  background-color: #032c5c;
+  border-radius: 80px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+
+  div {
+    width: 90px;
+    height: 100px;
+    // border: 1px solid red;
+    margin: 15px auto;
+  }
+}
+
+#country-btn {
+  top: 350px;
+}
+
+#province-btn {
+  top: 500px;
+}
+#world-btn{
+    top: 650px;
+}
+
+.country-province-btn-active {
+  background: url("../../../assets/img/circle.png");
+  background-size: 100%;
+}
+
+#jilin-position {
+  position: absolute;
+  left: 912px;
+  top: 185px;
+  z-index: 100;
+}
+#jilin-position1 {
+    position: absolute;
+    left: 1010px;
+    top: 225px;
+    z-index: 100;
+}

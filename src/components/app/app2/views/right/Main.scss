@@ -1,0 +1,121 @@
+#right{
+  position: absolute;
+  left: 3360px;
+  top: 0px;
+  width: 1440px;
+  height: 1200px;
+  box-sizing: border-box;
+  // border: 1px solid red;
+  .indicator{
+    position: absolute;
+    left: 26px;
+    top: 563px;
+    width: 700px;
+    height: 569px;
+    .indicatorTitle{
+      position: absolute;
+      left: 487px;
+      top: -2px;
+      width: 368px;
+      height: 62px;
+      color: #fff;
+      line-height: 62px;
+      text-align: center;
+      font-size: 32px;
+      text-shadow: 0 3px 0 #000;
+    }
+    #in-chart-1{
+      position: absolute;
+      top: 40px;
+      width: 611px;
+      height: 508px;
+    }
+    #in-chart-2{
+      position: absolute;
+      left: 672px;
+      top: 40px;
+      width: 611px;
+      height: 508px;
+    }
+    .voltelDiv{
+      position: absolute;
+      width: 193px;
+      height: 131px;
+      color: #fff;
+      background: url('../../assets/img/2251.png') no-repeat;
+      left: 1113px;
+      bottom: 31px;
+      font-size: 20px;
+      letter-spacing: 5px;
+      text-align: center;
+      padding-top: 10px;
+      .indicator-label-10{
+        position: absolute;
+        height: 50px;
+        width: 170px;
+        top: 70px;
+        left: 10px;
+      }
+    }
+    .indicator-label-1{
+      position: absolute;
+      height: 50px;
+      top: 450px;
+      left: 414px;
+    }
+    .indicator-label-2{
+      position: absolute;
+      height: 50px;
+      top: 91px;
+      left: 388px;
+    }
+    .indicator-label-3{
+      position: absolute;
+      height: 50px;
+      top: 260px;
+      left: 42px;
+    }
+    .indicator-label-4{
+      position: absolute;
+      height: 50px;
+      top: 450px;
+      left: 80px;
+    }
+    .indicator-label-5{
+      position: absolute;
+      height: 50px;
+      top: 255px;
+      left: 480px;
+    }
+    .indicator-label-6{
+      position: absolute;
+      height: 50px;
+      top: 90px;
+      left: 1045px;
+    }
+    .indicator-label-7{
+      position: absolute;
+      height: 50px;
+      top: 307px;
+      left: 720px;
+    }
+    .indicator-label-8{
+      position: absolute;
+      height: 50px;
+      top: 500px;
+      left: 930px;
+    }
+    .indicator-label-9{
+      position: absolute;
+      height: 50px;
+      top: 308px;
+      left: 1170px;
+    }
+    .indicator-label-10{
+      position: absolute;
+      height: 50px;
+      top: 450px;
+      left: 420px;
+    }
+  }
+}

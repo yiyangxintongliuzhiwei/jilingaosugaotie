@@ -1,0 +1,491 @@
+.a4_left_container{
+  position: absolute;
+  width: 1207px;
+  height: 1200px;
+  .mainTitle{
+    width: 1074px;
+    height: 110px;
+    position: absolute;
+    left: 1751px;
+    top: 34px;
+    font-weight: bold;
+    background: url(../../assets/img/mainTitle.jpg) no-repeat;
+  }
+  .top{
+    .topTitle{
+      position: absolute;
+      left: 419px;
+      top: 86px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      width: 470px;
+      font-family: 'MicrosoftYaHei';
+      font-size: 30px;
+      letter-spacing: 3px;
+      color: #ffffff;
+    }
+    .description{
+      position: absolute;
+      top: 186px;
+      left: 79px;
+      width: 1134px;
+      height: 187px;
+      .text{
+        width: 995px;
+        height: 136px;
+        margin-top: 38px;
+        margin-left: 75px;
+        font-family: 'STHeitiSC-Light';
+        font-size: 26px;
+        line-height: 45px;
+        letter-spacing: 2px;
+        color: #ffffff;
+        text-indent: 56px;
+        overflow: scroll;
+        overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .text::-webkit-scrollbar{
+        background: none;
+      }
+    }
+  }
+  .bottom{
+    .bottomTitle{
+      position: absolute;
+      top: 437px;
+      left: 445px;
+      width: 400px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      font-family: 'MicrosoftYaHei';
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #ffffff;
+    }
+    .a2-swiper-roam10 {
+      position: absolute;
+      width: 134px;
+      height: 36px;
+      top: 460px;
+      left: 1080px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // left: 1170px;
+      z-index: 1;
+      .swiper-pagination-bullet {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        opacity: 1;
+        margin-right: 12px;
+        background: url(../../assets/img/lunbo.png) no-repeat;
+      }
+      .swiper-pagination-bullet-active {
+        background: url(../../assets/img/lunbo2.png) no-repeat;
+      }
+    }
+    .swiper{
+      width: 1074px;
+      height: 563px;
+      position: absolute;
+      top: 543px;
+      left: 101px;
+    }
+    .content{
+      width: 1074px;
+      height: 563px;
+      .part1{
+        .icon{
+          width: 34px;
+          height: 48px;
+          position: absolute;
+          left: 24px;
+          top: 0;
+          background: url(../../assets/img/lantern.png) no-repeat;
+        }
+        .contentTitle{
+          width: 237px;
+          height: 40px;
+          background: url(../../assets/img/contentTitle.jpg) no-repeat;
+          position: absolute;
+          left: 70px;
+          top: 10px;
+        }
+      }
+      .part2{
+        .chart1Box{
+          width: 326px;
+          height: 226px;
+          position: absolute;
+          left: -16px;
+          top: 107px;
+          background: url(../../assets/img/progress.png)  center center no-repeat;
+          .text{
+            width: 108px;
+            height: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 176px;
+            margin-top: 24px;
+            text-align: center;
+            font-family: 'MicrosoftYaHei';
+            font-size: 19px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #e0ebff;
+          }
+          .chart1{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+          }
+          .count{
+            width: 122px;
+            height: 44px;
+            // border: 1px solid yellow;
+            margin-left: 64px;
+            margin-top: 23px;
+          }
+        }
+        .chart2Box{
+          width: 326px;
+          height: 226px;
+          position: absolute;
+          left: -16px;
+          bottom: 0px;
+          // border: 1px solid yellow;
+          background: url(../../assets/img/progress.png)  center center no-repeat;
+          .text{
+            width: 108px;
+            height: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 176px;
+            margin-top: 24px;
+            text-align: center;
+            font-family: 'MicrosoftYaHei';
+            font-size: 19px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #e0ebff;
+          }
+          .chart2{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+          }
+          .count{
+            width: 122px;
+            height: 44px;
+            // border: 1px solid yellow;
+            margin-left: 64px;
+            margin-top: 23px;
+          }
+        }
+      }
+      // 访问时延
+      .time{
+        width: 376px;
+        height: 166px;
+        background: url(../../assets/img/bg1.png) no-repeat;
+        .text1,
+        .text2{
+          font-family: 'MicrosoftYaHei';
+          font-size: 18px;
+          font-weight: bold;
+          letter-spacing: 1px;
+          color: #e0ebff;
+          margin: 14px 0 0px 22px;
+        }
+        .text2,
+        .text3{
+          display: inline-block;
+        }
+        .text3{
+          font-family: 'MicrosoftYaHei';
+          font-size: 14px;
+          font-weight: bold;
+          letter-spacing: 2px;
+          color: #e0ebff;
+        }
+        .count{
+          width: 130px;
+          height: 48px;
+          position: absolute;
+          top: 60px;
+          right: 0px;
+        }
+        .progressBox{
+          width: 200px;
+          height: 20px;
+          background: lightblue;
+          position: absolute;
+          top: 112px;
+          left: 20px;
+          overflow: hidden;
+          background: url(../../assets/img/0%.png) no-repeat;
+          .progress{
+            width: 200px;
+            height: 20px;
+            background: url(../../assets/img/100%.png) no-repeat;
+          }
+        }
+      }
+      .unitShiyan{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        position: absolute;
+        bottom: 155px;
+        right: 151px;
+        font-family: 'MicrosoftYaHei';
+        font-weight: bold;
+        font-size: 12px;
+        color: #fff;
+      }
+    }
+    .content2{
+      width: 1074px;
+      height: 563px;
+      .title2{
+        width: 320px;
+        height: 54px;
+        position: absolute;
+        top: 36px;
+        left: 24px;
+        background: url(../../assets/img/title2.jpg) no-repeat;
+      }
+      // 表头
+      .gaugeBox{
+        // margin-left: 194px;
+        margin-left: 285px;
+        margin-top: 105px;
+        .gauge{
+          // width: 174px;
+          width: 154px;
+          height: 82px;
+          line-height: 41px;
+          display: inline-block;
+          color: #fff;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+      .itemBox{
+        width: 990px;
+        height: 300px;
+        // position: absolute;
+        // top: 190px;
+        // left: 80px;
+        margin-top: 10px;
+        margin-left: 80px;
+        // border: 1px solid yellow;
+        .item{
+          width: 990px;
+          height: 60px;
+          margin-bottom: 12px;
+          // border: 1px solid yellow;
+          background: url(../../assets/img/bgTable.png) no-repeat;
+          .des{
+            width: 200px;
+            height: 60px;
+            line-height: 60px;
+            // text-align: center;
+            color: #fff;
+            font-size: 20px;
+            display: inline-block;
+            // border: 1px solid yellow;
+            img{
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+              // border: 1px solid yellow;
+              display: inline-block;
+              margin-left: 20px;
+              // margin-top: 10px;
+            }
+            .text{
+              display: inline-block;
+              width: 127px;
+              height: 60px;;
+              line-height: 60px;
+              margin-left: 68px;
+            }
+          }
+          .count{
+            width: 120px;
+            height: 46px;
+            color: #fff;
+            display: inline-block;
+            // border: 1px solid yellow;
+            // padding-top: 6px;
+            margin-left: 20px;
+            margin-right: 10px;
+          }
+        }
+        .itemBg{
+          width: 990px;
+          height: 337px;
+          margin-top: -349px;
+          margin-left: 10px;
+          background: url(../../assets/img/taobaoBg.png) no-repeat;
+          background-size: 43px 329px;
+        }
+      }
+    }
+    .content3{
+      width: 1074px;
+      height: 563px;
+      .title3{
+        width: 320px;
+        height: 54px;
+        position: absolute;
+        top: 36px;
+        left: 24px;
+        background: url(../../assets/img/title3.jpg) no-repeat;
+      }
+      .item{
+        width: 305px;
+        height: 426px;
+        margin: 106px 24px 60px 26px;
+        display: inline-block;
+        background: url(../../assets/img/rectangle.png) no-repeat;
+        .itemTitle{
+          width: 305px;
+          height: 82px;
+          line-height: 82px;
+          text-align: center;
+          font-size: 36px;
+          font-family: "MicrosoftYaHei";
+          font-weight: bold;
+        }
+        .imgBox{
+          width: 305px;
+          height: 150px;
+          img{
+            margin: 0 auto;
+            display: block;
+          }
+        }
+      }
+      .table{
+        width: 304px;
+        height: 215px;
+        // margin-top: 8px;
+        position: absolute;
+        bottom: 15px;
+        left: 36px;
+        .tableItem{
+          width: 100%;
+          height: 43px;
+          // border: 1px solid yellow;
+          .text{
+            width: 134px;
+            height: 43px;
+            line-height: 43px;
+            display: inline-block;
+            color: #fff;
+            font-size: 24px;
+            font-family: "MicrosoftYaHei";
+            text-align: left;
+            padding-left: 20px;
+          }
+          .countBox{
+            width: 126px;
+            height: 43px;
+            line-height: 43px;
+            display: inline-block;
+            padding-right: 14px;
+            .count{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      .table2{
+        width: 304px;
+        height: 215px;
+        // margin-top: 8px;
+        position: absolute;
+        bottom: 15px;
+        left: 403px;
+        .tableItem{
+          width: 100%;
+          height: 43px;
+          // border: 1px solid yellow;
+          .text{
+            width: 134px;
+            height: 43px;
+            line-height: 43px;
+            display: inline-block;
+            color: #fff;
+            font-size: 24px;
+            font-family: "MicrosoftYaHei";
+            text-align: left;
+            padding-left: 20px;
+          }
+          .countBox{
+            width: 126px;
+            height: 43px;
+            line-height: 43px;
+            display: inline-block;
+            padding-right: 14px;
+            .count{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      .table3{
+        width: 304px;
+        height: 215px;
+        // margin-top: 8px;
+        position: absolute;
+        bottom: 15px;
+        left: 750px;
+        .tableItem{
+          width: 100%;
+          height: 43px;
+          // border: 1px solid yellow;
+          .text{
+            width: 134px;
+            height: 43px;
+            line-height: 43px;
+            display: inline-block;
+            color: #fff;
+            font-size: 24px;
+            font-family: "MicrosoftYaHei";
+            text-align: left;
+            padding-left: 20px;
+          }
+          .countBox{
+            width: 126px;
+            height: 43px;
+            line-height: 43px;
+            display: inline-block;
+            padding-right: 14px;
+            .count{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    #block{
+      position: absolute;
+      top: 543px;
+      left: 101px;
+    }
+  }
+}

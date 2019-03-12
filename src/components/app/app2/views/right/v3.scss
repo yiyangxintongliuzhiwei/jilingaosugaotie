@@ -1,0 +1,1058 @@
+.a2_v3{
+  width: 4800px;
+  // v3内容
+  .v3_content{
+    width: 1300px;
+    height: 1032px;
+    position: absolute;
+    top: 112px;
+    right: 80px;
+    // 超长／超频退服
+    .retire{
+      height: 365px;
+      width: 1300px;
+      .title{
+        width: 320px;
+        height: 63px;
+        line-height: 63px;
+        text-align: center;
+        font-family: 'MF_LangQian';
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 3px;
+        color: #e3eefc;
+        margin-left: 60px;
+      }
+      // 柱状图
+      .bar{
+        width: 624px;
+        height: 250px;
+        margin-top: 30px;
+        .chart11{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      // 超长退服top5
+      .top5{
+        width: 637px;
+        height: 281px;
+        margin-left: 644px;
+        // 超长
+        .overLong{
+          width: 309px;
+          height: 281px;
+          display: inline-block;
+          background: url(../../assets/img/left/retire.png) no-repeat;
+          background-size: 100% 100%;
+          position: absolute;
+          left: 631px;
+          top: 60px;
+          .title{
+            width: 309px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-family: 'MF_LangQian';
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 3px;
+            color: #e5f0ff;
+            margin: 0;
+          }
+          .lineFirst{
+            width: 309px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-family: 'MF_LangQian';
+            font-size: 11px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 3px;
+            color: #e5f0ff;
+            margin: 0;
+            .address{
+              display: inline-block;
+              width: 52px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left:0;
+            }
+            .line{
+              display: inline-block;
+              width: 70px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left: 52px;
+            }
+            .name{
+              display: inline-block;
+              width: 136px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left: 112px;
+            }
+            .time{
+              display: inline-block;
+              width: 46px;
+              height: 20px;
+              line-height: 20px;
+              position: absolute;
+              left: 261px;
+            }
+          }
+          .lineOther{
+            .lineItem{
+              width: 309px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              font-family: 'MF_LangQian';
+              font-size: 11px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 3px;
+              color: #e5f0ff;
+              margin: 0;
+              .address{
+                display: inline-block;
+                width: 45px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                left: 2px;
+              }
+              .line{
+                display: inline-block;
+                width: 70px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                left: 46px;
+              }
+              .name{
+                display: inline-block;
+                width: 136px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                // left: 122px;
+                left: 109px;
+                .name_{
+                  width: 100%;
+                  height: 100%;
+                  line-height: 14px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  // -webkit-text-size-adjust: none;
+                  // font-size: 5px;
+                  // font-size设置小雨12px没有用，所以用transform方式缩小字体
+                  transform: scale(0.6);
+                }
+                .name_{
+                  margin: 0 auto;
+                  width: 100%;
+                  height: 100%;
+                  line-height: 13px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  font-size: 5px;
+                }
+              }
+              .time{
+                display: inline-block;
+                width: 46px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                left: 261px;
+                font-size: 9px;
+                .count{
+                  width: 100%;
+                  height: 40px;
+                  letter-spacing: 0px;
+                }
+              }
+            }
+          }
+        }
+        // 超频
+        .overClocking{
+          width: 309px;
+          height: 281px;
+          margin-left: 5px;
+          display: inline-block;
+          background: url(../../assets/img/left/retire.png) no-repeat;
+          background-size: 100% 100%;
+          position: absolute;
+          left: 946px;
+          top: 60px;
+          .title{
+            width: 309px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-family: 'MF_LangQian';
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 3px;
+            color: #e5f0ff;
+            margin: 0;
+          }
+          // 表格数据
+          .lineFirst{
+            width: 309px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-family: 'MF_LangQian';
+            font-size: 11px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 3px;
+            color: #e5f0ff;
+            margin: 0;
+            .address{
+              display: inline-block;
+              width: 52px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left:0;
+            }
+            .line{
+              display: inline-block;
+              width: 70px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left: 52px;
+            }
+            .name{
+              display: inline-block;
+              width: 136px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left: 112px;
+            }
+            .time{
+              display: inline-block;
+              width: 46px;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              left: 261px;
+            }
+          }
+          .lineOther{
+            .lineItem{
+              width: 309px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              font-family: 'MF_LangQian';
+              font-size: 11px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 3px;
+              color: #e5f0ff;
+              margin: 0;
+              .address{
+                display: inline-block;
+                width: 45px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                left: 2px;
+              }
+              .line{
+                display: inline-block;
+                width: 70px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                left: 46px;
+              }
+              .name{
+                display: inline-block;
+                width: 136px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                // left: 122px;
+                left: 109px;
+                // top: -2px;
+                .name_{
+                  width: 100%;
+                  height: 100%;
+                  line-height: 14px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  // -webkit-text-size-adjust: none;
+                  // font-size: 5px;
+                  // font-size设置小雨12px没有用，所以用transform方式缩小字体
+                  transform: scale(0.6);
+                }
+              }
+              .time{
+                display: inline-block;
+                width: 46px;
+                height: 40px;
+                line-height: 40px;
+                position: absolute;
+                left: 261px;
+                font-size: 9px;
+                .count{
+                  width: 100%;
+                  height: 40px;
+                  letter-spacing: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // 行为分析
+    .action{
+      width: 1294px;
+      height: 648px;
+      margin-top: 22px;
+      position: absolute;
+      top: 366px;
+      left: 0;
+      .title{
+        width: 320px;
+        height: 63px;
+        line-height: 63px;
+        text-align: center;
+        font-family: 'MF_LangQian';
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 3px;
+        color: #e3eefc;
+        margin-left: 60px;
+        span{
+          font-size: 18px;
+          letter-spacing: 2px;
+        }
+      }
+      .content{
+        width: 1294px;
+        height: 585px;
+        // top
+        .top{
+          width: 1294px;
+          height: 292px;
+          // border: 1px solid yellow;
+          // 流量总量
+          .fluxTotal{
+            width: 50px;
+            height: 40px;
+            line-height: 40px;
+            font-family: 'MF_LangQian';
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 2px;
+            color: #ffffff;
+            position: absolute;
+            top: 76px;
+            left: 40px;
+          }
+          .fluxTotalCount{
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            top: 76px;
+            left: 100px;
+          }
+          // 饼图
+          .chartBox{
+            display: inline-block;
+            width: 270px;
+            height: 292px;
+            // border: 1px solid lightblue;
+            .chart12{
+              width: 270px;
+              height: 292px;
+              padding-top: 55px;
+              background: url(../../assets/img/right/fiveCricle.png) center center no-repeat;
+            }
+          }
+          // 流量
+          .flux{
+            display: inline-block;
+            width: 240px;
+            height: 247px;
+            // margin-top: 26px;
+            position: absolute;
+            top: 90px;
+            left: 280px;
+            .title{
+              width: 240px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              font-family: 'MF_LangQian';
+              font-size: 20px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 2px;
+              color: #e5f1ff;
+              margin: 0;
+              margin-bottom: 9px;
+              // border: 1px solid yellow;
+            }
+            .flexItem{
+              height: 40px;
+              line-height: 40px;
+              text-align: left;
+              width: 100%;
+              font-family: 'MF_LangQian';
+              font-size: 14px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 1px;
+              color: #e5f1ff;
+              .index{
+                width: 37px;
+                display: inline-block;
+                text-align: center;
+              }
+              .text{
+                width: 94px;
+                display: inline-block;
+              }
+              .num{
+                width: 100px;
+                display: inline-block;
+                .count{
+                  width: 100%;
+                  height: 40px;
+                }
+              }
+            }
+          }
+          .user{
+            display: inline-block;
+            width: 766px;
+            height: 246px;
+            position: absolute;
+            top: 90px;
+            left: 520px;
+            .title{
+              width: 766px;
+              height: 40px;
+              line-height: 40px;
+              font-family: 'MF_LangQian';
+              font-size: 20px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 2px;
+              color: #ffffff;
+              margin: 0;
+            }
+            // 女性
+            .female{
+              display: inline-block;
+              width: 321px;
+              height: 29px;
+              position: absolute;
+              left: 67px;
+              top: 40px;
+              .text{
+                display: inline-block;
+                width: 52px;
+                height: 29px;
+                line-height: 29px;
+                text-align: center;
+                font-family: 'MF_LangQian';
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                letter-spacing: 2px;
+                color: #ffffff;
+                position: absolute;
+                left: 0;
+              }
+              .progressBox{
+                width: 157px;
+                height: 29px;
+                color: #fff;
+                display: inline-block;
+                text-align: left;
+                position: absolute;
+                left: 52px;
+                top: 0;
+                background: url(../../assets/img/right/woman.png) left center no-repeat;
+                .progress{
+                  display: inline-block;
+                  // width: 157px;
+                  width: 100%;
+                  height: 29px;
+                  background: url(../../assets/img/right/women.png) left center no-repeat;
+                  background-size: 157px 29px;
+                  position: absolute;
+                }
+              }
+              .num{
+                width: 126px;
+                color: #fff;
+                display: inline-block;
+                position: absolute;
+                left: 229px;
+                .count{
+                  width: 100%;
+                  height: 29px;
+                }
+              }
+            }
+            // 男性
+            .male{
+              display: inline-block;
+              width: 321px;
+              height: 29px;
+              // border: 1px solid yellow;
+              position: absolute;
+              right: 40px;
+              top: 40px;
+              .text{
+                display: inline-block;
+                width: 52px;
+                height: 29px;
+                line-height: 29px;
+                text-align: center;
+                font-family: 'MF_LangQian';
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                letter-spacing: 2px;
+                color: #ffffff;
+                position: absolute;
+                left: 0;
+              }
+              .progressBox{
+                width: 157px;
+                height: 29px;
+                color: #fff;
+                display: inline-block;
+                text-align: left;
+                position: absolute;
+                left: 52px;
+                top: 0;
+                background: url(../../assets/img/right/man.png) no-repeat;
+                .progress{
+                  display: inline-block;
+                  width: 100%;
+                  height: 29px;
+                  background: url(../../assets/img/right/men.png) left center no-repeat;
+                  background-size: 157px 29px;
+                }
+              }
+              .num{
+                width: 126px;
+                color: #fff;
+                display: inline-block;
+                position: absolute;
+                left: 229px;
+                .count{
+                  width: 100%;
+                  height: 29px;
+                }
+              }
+            }
+            // 进度饼图
+            .progressBox{
+              width: 140px;
+              height: 185px;
+              position: absolute;
+              left: 62px;
+              top: 76px;
+              .count12{
+                width: 128px;
+                height: 56px;
+                position: absolute;
+                top: 56px;
+                left: 8px;
+                span{
+                  width: 128px;
+                  height: 26px;
+                  line-height: 26px;
+                  text-align: center;
+                  font-family: 'DigifaceWide';
+                  font-size: 9px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  letter-spacing: 0px;
+                  color: #0fecfa;
+                  position: absolute;
+                  // top: 106px;
+                  top: 36px;
+                  left: 2px;
+                }
+              }
+            }
+            .progressBox2{
+              width: 140px;
+              height: 185px;
+              position: absolute;
+              left: 203px;
+              top: 76px;
+              background: url(../../assets/img/right/circle2.png) no-repeat;
+              background-position: -53px -32px;
+              .count13{
+                width: 128px;
+                height: 56px;
+                position: absolute;
+                top: 56px;
+                left: 8px;
+                span{
+                  width: 128px;
+                  height: 26px;
+                  line-height: 26px;
+                  text-align: center;
+                  font-family: 'DigifaceWide';
+                  font-size: 9px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  letter-spacing: 0px;
+                  color: #0fecfa;
+                  position: absolute;
+                  // top: 106px;
+                  top: 36px;
+                  left: 2px;
+                }
+              }
+            }
+            .progressBox3{
+              width: 140px;
+              height: 185px;
+              position: absolute;
+              top: 76px;
+              left: 346px;
+              // border: 1px solid yellow;
+              background: url(../../assets/img/right/circle3.png) no-repeat;
+              background-position: 0px 27px;
+              .count14{
+                width: 128px;
+                height: 56px;
+                position: absolute;
+                top: 60px;
+                left: 8px;
+                span{
+                  width: 128px;
+                  height: 26px;
+                  line-height: 26px;
+                  text-align: center;
+                  font-family: 'DigifaceWide';
+                  font-size: 9px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  letter-spacing: 0px;
+                  color: #0fecfa;
+                  position: absolute;
+                  // top: 106px;
+                  top: 36px;
+                  left: 2px;
+                }
+              }
+            }
+            .progressBox4{
+              width: 140px;
+              height: 185px;
+              position: absolute;
+              top: 76px;
+              left: 480px;
+              // border: 1px solid yellow;
+              background: url(../../assets/img/right/circle4.png) no-repeat;
+              background-position: 0px 27px;
+              .count15{
+                width: 128px;
+                height: 56px;
+                position: absolute;
+                top: 60px;
+                left: 8px;
+                span{
+                  width: 128px;
+                  height: 26px;
+                  line-height: 26px;
+                  text-align: center;
+                  font-family: 'DigifaceWide';
+                  font-size: 9px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  letter-spacing: 0px;
+                  color: #0fecfa;
+                  position: absolute;
+                  // top: 106px;
+                  top: 36px;
+                  left: 2px;
+                }
+              }
+            }
+            .progressBox5{
+              width: 140px;
+              height: 185px;
+              position: absolute;
+              top: 76px;
+              left: 615px;
+              // border: 1px solid yellow;
+              .count16{
+                width: 128px;
+                height: 56px;
+                position: absolute;
+                top: 60px;
+                left: 8px;
+                span{
+                  width: 128px;
+                  height: 26px;
+                  line-height: 26px;
+                  text-align: center;
+                  font-family: 'DigifaceWide';
+                  font-size: 9px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  letter-spacing: 0px;
+                  color: #0fecfa;
+                  position: absolute;
+                  // top: 106px;
+                  top: 36px;
+                  left: 2px;
+                }
+              }
+            }
+          }
+        }
+        // bottom
+        .bottom{
+          width: 1294px;
+          height: 292px;
+          // border: 1px solid yellow;
+          // 用户总量
+          .userTotal{
+            width: 50px;
+            height: 40px;
+            line-height: 40px;
+            font-family: 'MF_LangQian';
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 2px;
+            color: #ffffff;
+            position: absolute;
+            top: 366px;
+            left: 40px;
+          }
+          .userTotalCount{
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            top: 366px;
+            left: 100px;
+          }
+          // 饼图-4个环，canvas绘制
+          .chart10{
+            width: 248px;
+            height: 300px;
+            // padding-top: 100px;
+            padding-left: 20px;
+            background: url(../../assets/img/right/fiveCricle.png) center center no-repeat;
+          }
+          // 用户数
+          .flux{
+            display: inline-block;
+            width: 240px;
+            height: 247px;
+            // margin-top: 26px;
+            position: absolute;
+            top: 382px;
+            left: 280px;
+            .title{
+              width: 240px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              font-family: 'MF_LangQian';
+              font-size: 20px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 2px;
+              color: #e5f1ff;
+              margin: 0;
+              margin-bottom: 9px;
+              // border: 1px solid yellow;
+            }
+            .flexItem{
+              height: 40px;
+              line-height: 40px;
+              text-align: left;
+              width: 100%;
+              font-family: 'MF_LangQian';
+              font-size: 14px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 1px;
+              color: #e5f1ff;
+              .index{
+                width: 37px;
+                display: inline-block;
+                text-align: center;
+              }
+              .text{
+                width: 94px;
+                display: inline-block;
+              }
+              .num{
+                width: 100px;
+                display: inline-block;
+                .count{
+                  width: 100%;
+                  height: 40px;
+                }
+              }
+            }
+          }
+          // APP使用次数
+          .app{
+            display: inline-block;
+            width: 766px;
+            height: 292px;
+            position: absolute;
+            top: 382px;
+            left: 520px;
+            // border: 1px solid yellow;
+            .title{
+              width: 460px;
+              height: 40px;
+              line-height: 40px;
+              font-family: 'MF_LangQian';
+              font-size: 20px;
+              font-weight: normal;
+              font-stretch: normal;
+              letter-spacing: 2px;
+              color: #ffffff;
+              margin: 0;
+            }
+            // 进度条
+            .chargeProgress{
+              width: 372px;
+              height: 195px;
+              position: absolute;
+              right: 340px;
+              // top: 44px;
+              top: 0;
+              .chart60{
+                // width: 362px;
+                // height: 195px;
+                padding-top: -30px;
+                width: 100%;
+                // height: 130%;
+                height: 150%;
+              }
+              // .box{
+              //   width: 372px;
+              //   height: 195px;
+              //   // 前两个样式是黄色
+              //   .chargeItem{
+              //     width: 372px;
+              //     height: 32px;
+              //     line-height: 32px;
+              //     // 小区名字
+              //     .name{
+              //       width: 106px;
+              //       height: 32px;
+              //       text-align: left;
+              //       display: inline-block;
+              //       font-family: 'MF_LangQian';
+              //       font-weight: normal;
+              //       font-stretch: normal;
+              //       color: #ffffff;
+              //       font-size: 14px;
+              //       letter-spacing: 1px;
+              //     }
+              //     // 进度条
+              //     .progressBox{
+              //       display: inline-block;
+              //       width: 286px;
+              //       height: 32px;
+              //       // 需要绝对定位，因为父父元素决定定位了，它脱离了原本的文档流
+              //       position: absolute;
+              //       left: 86px;
+              //       text-align: left;
+              //       .progress{
+              //         display: inline-block;
+              //         height: 32px;
+              //         margin-left: 20px;
+              //         background: url(../../assets/img/right/progressBlue.png) left center no-repeat;
+              //       }
+              //     }
+              //   }
+              // }
+            }
+            // 饼图
+            .pie{
+              width: 346px;
+              height: 392px;
+              position: absolute;
+              right: 0;
+              top: -34px;
+              .pieBackground{
+                width: 262px;
+                height: 164px;
+                background: url(../../assets/img/right/line.png) no-repeat;
+                background-size: 262px 144px;
+                position: absolute;
+                top: 53px;
+                left: 0;
+              }
+              .chartPie{
+                width: 379px;
+                height: 292px;
+                // position: absolute;
+                // top: 53px;
+                // left: 0;
+              }
+              .percent{
+                width: 279px;
+                height: 292px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                .count1{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 68px;
+                  // bottom: 0;
+                }
+                .count2{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 68px;
+                  right: -16px;
+                }
+                .count3{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 136px;
+                  left: -14px;
+                }
+                .count4{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 136px;
+                  right: -37px;
+                }
+                .count5{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 198px;
+                  left: 12px;
+                }
+                .count6{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 198px;
+                  right: -17px;
+                }
+              }
+              .num{
+                width: 279px;
+                height: 292px;
+                position: absolute;
+                top: 0;
+                // bottom: 0;
+                .num1_{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 38px;
+               // bottom: 0;
+                }
+                .num2_{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 38px;
+                  right: -16px;
+                }
+                .num3_{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 106px;
+                  left: -14px;
+                }
+                .num4_{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 106px;
+                  right: -37px;
+                }
+                .num5_{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 170px;
+                  left: 12px;
+                }
+                .num6_{
+                  width: 84px;
+                  height: 18px;
+                  line-height: 18px;
+                  position: absolute;
+                  top: 170px;
+                  right: -17px;
+                }
+              }
+              // 文字
+              .text{
+                width: 50px;
+                height: 25px;
+                line-height: 25px;
+                font-family: 'MF_LangQian';
+                font-size: 20px;
+                font-weight: normal;
+                font-stretch: normal;
+                letter-spacing: 2px;
+                color: #ffffff;
+                position: absolute;
+                top: 106px;
+                left: 161px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

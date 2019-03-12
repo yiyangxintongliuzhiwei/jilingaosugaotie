@@ -1,0 +1,44 @@
+#user-roam-chart-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.title-user-roam {
+  position: absolute;
+  width: 333px;
+  height: 56px;
+  top: 0;
+  left: 100px;
+  background: url('../../../assets/img/title-bg2.png')
+}
+
+.title-user-roam-style {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  color: #FFFFFF;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+#user-roam-chart-right, #user-roam-chart {
+  position: absolute;
+  width: 350px;
+  height: 320px;
+  top: 60px;
+  left: 60px;
+}
+
+.numList {
+  position: absolute;
+  width: 90px;
+  height: 280px;
+  top: 75px;
+  left: 410px;
+  font-size: 18px;
+}
+
+.num-style {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 2px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'HanYiYaKuHei';
+  src: url('../../../../../assets/fonts/汉仪雅酷黑W.ttf');
+}
+@font-face {
+  font-family: 'MF_LangQian';
+  src: url('../../../../../assets/fonts/MF_LangQian.otf');
+}
+@font-face {
+  font-family: 'lihei';
+  src: url('../../../../../assets/fonts/lihei.otf');
+}
+@font-face {
+  font-family: 'PixelLCD7';
+  src: url('../../../../../assets/fonts/PixelLCD7.ttf');
+}
+
+.a2 {
+  position: absolute;
+  width: 4800px;
+  height: 1200px;
+  margin: 0;
+  padding: 0;
+  // background-image: url('../img/highway.png');
+  background: url(../img/highway.png);
+}

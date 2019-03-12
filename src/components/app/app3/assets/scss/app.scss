@@ -1,0 +1,42 @@
+.a1 {
+  position: absolute;
+  width: 4800px;
+  height: 1200px;
+  background-size: 100% 100%;
+  font-family: 'Microsoft YaHei';
+  user-select: none;
+  background: url(../img/jlbg.png) 100% 100% no-repeat;
+  /**滚动条样式--chrome*/
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar {
+    width: 18px;
+    height: 8px;
+    background-color: transparent;
+  }
+  /*定义滚动条轨道 内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    //-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+  }
+  /*定义滑块 内阴影+圆角*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    //-webkit-box-shadow: inset 0 0 4px rgba(1, 138, 219, .2);
+    // background: url('../../assets/img/v21/v21_24.png') center center no-repeat, #046cff;
+    // background-size: 100% 100%;
+  }
+}
+
+@font-face {
+  font-family: 'MF_LangQian';
+  src: url('../../../../../assets/fonts/MF_LangQian.otf');
+}
+@font-face {
+  font-family: 'lihei';
+  src: url('../../../../../assets/fonts/lihei.otf');
+}
+@font-face {
+  font-family: 'PixelLCD7';
+  src: url('../../../../../assets/fonts/PixelLCD7.ttf');
+}

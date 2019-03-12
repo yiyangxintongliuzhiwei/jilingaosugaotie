@@ -1,0 +1,1227 @@
+.a1_v31{
+  width: 1357px;
+  height: 1129px;
+  // background: yellow;
+  position: absolute;
+  left: 3393px;
+  top: 53px;
+  .zhandianwanhaolv{
+    width: 319px;
+    height: 59px;
+    position: absolute;
+    left: 80px;
+    top: 66px;
+    font-size: 28px;
+    font-family: "MF_LangQian";
+    line-height: 59px;
+    text-align: center;
+    color: #cce6fe;
+    letter-spacing: 4px;
+  }
+  .xinweifenxi {
+    width: 319px;
+    height: 59px;
+    // background: yellow;
+    position: absolute;
+    left: 80px;
+    top: 414px;
+    .xinweifenxi-one {
+      width: 174px;
+      height: 59px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      font-size: 28px;
+      font-family: "MF_LangQian";
+      line-height: 59px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 4px;
+    }
+    .xinweifenxi-two {
+      width: 145px;
+      height: 59px;
+      position: absolute;
+      left: 166px;
+      top: 0px;
+      font-size: 18px;
+      font-family: "MF_LangQian";
+      line-height: 59px;
+      text-align: left;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+  }
+  .chaochangtuifu{
+    width: 319px;
+    height: 59px;
+    position: absolute;
+    left: 690px;
+    top: 66px;
+    font-size: 28px;
+    font-family: "MF_LangQian";
+    line-height: 59px;
+    text-align: center;
+    color: #cce6fe;
+    letter-spacing: 4px;
+  }
+  .leida{
+    width: 626px;
+    height: 296px;
+    // background: yellow;
+    position: absolute;
+    left: 0px;
+    top: 93px;
+    #v31echarts-1{
+      width: 396px;
+      height: 260px;
+      // background: yellowgreen;
+      position: absolute;
+      left: 5px;
+      top: 20px;
+    };
+    .lineNum{
+      width: 250px;
+      height: 252px;
+      // background: yellow;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      .lineItem{
+        width: 175px;
+        height: 107px;
+        background: url(./img/qie.png) top center no-repeat;
+        margin-bottom: 28px;
+        .num{
+          width: 161px;
+          height: 63px;
+          padding-left: 10px;
+          padding-top: 3px;
+          .count{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .text{
+          width: 175px;
+          height: 36px;
+          line-height: 36px;
+          text-align: center;
+          font-family: 'MF_LangQian';
+          font-size: 18px;
+          font-weight: normal;
+          font-stretch: normal;
+          letter-spacing: 1px;
+          color: #e5f1ff;
+          margin-top: 6px;
+        }
+      }
+    }
+    .word-one {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 152px;
+      top: 46px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 2px;
+    }
+    .num-one {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 205px;
+      top: 44px;
+    }
+    .word-two {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 76px;
+      top: 60px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-two {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 80px;
+      top: 80px;
+    }
+    .word-three {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 260px;
+      top: 60px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 2px;
+    }
+    .num-three {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 280px;
+      top: 80px;
+    }
+    .word-four {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 54px;
+      top: 120px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-four {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 70px;
+      top: 140px;
+    }
+    .word-five {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 54px;
+      top: 186px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-five {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 70px;
+      top: 206px;
+    }
+    .word-six {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 110px;
+      top: 240px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-six {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 120px;
+      top: 260px;
+    }
+    .word-seven {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 220px;
+      top: 240px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-seven {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 240px;
+      top: 260px;
+    }
+    .word-eight {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 270px;
+      top: 182px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-eight {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 290px;
+      top: 202px;
+    }
+    .word-nine {
+      width: 50px;
+      height: 20px;
+      position: absolute;
+      left: 280px;
+      top: 110px;
+      font-size: 14px;
+      font-family: "MF_LangQian";
+      line-height: 20px;
+      text-align: right;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .num-nine {
+      width: 54px;
+      height: 20px;
+      position: absolute;
+      left: 300px;
+      top: 130px;
+    }
+  };
+  .xingwei{
+    width: 1350px;
+    height: 355px;
+    // background: yellow;
+    position: absolute;
+    left: 0px;
+    top: 410px;
+    .total{
+      width: 61px;
+      height: 33px;
+      position: absolute;
+      left: 45px;
+      top: 80px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 33px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 4px;
+    }
+    .totalnum{
+      width: 172px;
+      height: 34px;
+      position: absolute;
+      left: 103px;
+      top: 80px;
+    };
+    .huan1{
+      width: 276px;
+      height: 241px;
+      // background: yellow;
+      position: absolute;
+      left: 0px;
+      top: 112px;
+      #v31echarts-2 {
+        width: 200px;
+        height: 200px;
+        // background: yellow;
+        position: absolute;
+        left: 44px;
+        top: 8px;
+      };
+      .span1{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 9px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #00ffff;
+      }
+      .span2{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 22px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #00ff00;
+      }
+      .span3{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 35px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #df9f3b;
+      }
+      .span4{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 48px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #ffff00;
+      }
+      .span5{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 62px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #eb601b;
+      }
+    }
+    .yonghushu{
+      width: 94px;
+      height: 33px;
+      position: absolute;
+      left: 347px;
+      top: 96px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 33px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .top5{
+      width: 249px;
+      height: 209px;
+      // background: yellow;
+      position: absolute;
+      left: 258px;
+      top: 130px;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      li {
+        list-style: none;
+        width: 249px;
+        height: 30px;
+        // background: #cfecec;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        :nth-child(1) {
+          width: 54px;
+          height: 20px;
+          font-size: 14px;
+          font-family: "MF_LangQian";
+          line-height: 20px;
+          text-align: center;
+          color: #cce6fe;
+          letter-spacing: 0px;
+        }
+        :nth-child(2) {
+          width: 113px;
+          height: 20px;
+          font-size: 14px;
+          font-family: "MF_LangQian";
+          line-height: 14px;
+          text-align: center;
+          color: #cce6fe;
+          letter-spacing: 0px;
+        }
+        :nth-child(3) {
+          width: 95px;
+          height: 20px;
+          font-size: 14px;
+          font-family: "MF_LangQian";
+          line-height: 16px;
+          text-align: center;
+          color: #00ffff;
+          letter-spacing: 2px;
+        }
+      }
+    }
+    .shiyongcishu{
+      width: 185px;
+      height: 34px;
+      // background: yellow;
+      position: absolute;
+      left: 695px;
+      top: 62px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 33px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .shiyongshuzuobiao {
+      width: 432px;
+      height: 242px;
+      // background: yellow;
+      position: absolute;
+      left: 537px;
+      top: 94px;
+      #v31echarts-3{
+        width: 432px;
+        height: 242px;
+        // background: yellow;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+    }
+    .pingpai{
+      width: 338px;
+      height: 273px;
+      // background: yellow;
+      position: absolute;
+      left: 969px;
+      top: 57px;
+      .zhongduan{
+        width: 60px;
+        height: 60px;
+        // background: yellow;
+        position: absolute;
+        left: 140px;
+        top: 103px;
+        font-size: 20px;
+        font-family: "MF_LangQian";
+        line-height: 30px;
+        text-align: center;
+        color: #cce6fe;
+        letter-spacing: 4px;
+      }
+      #v31echarts-4{
+        width: 338px;
+        height: 273px;
+        // background: yellow;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+      .legend{
+        width: 283px;
+        height: 53px;
+        // background: yellow;
+        position: absolute;
+        left: 30px;
+        top: 228px;
+        .legend1{
+          width: 283px;
+          height: 27px;
+          // background: yellow;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          display: flex;
+          align-items: center;
+          justify-content:space-around;
+          .legend1s {
+            width: 93px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            :nth-child(1) {
+              width: 11px;
+              height: 11px;
+              background: #56eeff;
+            }
+            :nth-child(2) {
+              width: 60px;
+              height: 27px;
+              // background: #56eeff;
+              font-size: 16px;
+              font-family: "MF_LangQian";
+              line-height: 27px;
+              text-align: center;
+              color: #cce6fe;
+              letter-spacing: 0px;
+            }
+          }
+          .legend2s {
+            width: 93px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            :nth-child(1) {
+              width: 11px;
+              height: 11px;
+              background: #fbc033;
+            }
+            :nth-child(2) {
+              width: 60px;
+              height: 27px;
+              // background: #56eeff;
+              font-size: 16px;
+              font-family: "MF_LangQian";
+              line-height: 27px;
+              text-align: center;
+              color: #cce6fe;
+              letter-spacing: 0px;
+            }
+          }
+          .legend3s {
+            width: 93px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            :nth-child(1) {
+              width: 11px;
+              height: 11px;
+              background: #fc203a;
+            }
+            :nth-child(2) {
+              width: 60px;
+              height: 27px;
+              // background: #56eeff;
+              font-size: 16px;
+              font-family: "MF_LangQian";
+              line-height: 27px;
+              text-align: center;
+              color: #cce6fe;
+              letter-spacing: 0px;
+            }
+          }
+        }
+        .legend2{
+          width: 283px;
+          height: 27px;
+          // background: yellow;
+          position: absolute;
+          left: 0px;
+          top: 27px;
+          display: flex;
+          align-items: center;
+          justify-content:space-around;
+          .legend1s {
+            width: 93px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            :nth-child(1) {
+              width: 11px;
+              height: 11px;
+              background: #03bd42;
+            }
+            :nth-child(2) {
+              width: 60px;
+              height: 27px;
+              // background: #56eeff;
+              font-size: 16px;
+              font-family: "MF_LangQian";
+              line-height: 27px;
+              text-align: center;
+              color: #cce6fe;
+              letter-spacing: 0px;
+            }
+          }
+          .legend2s {
+            width: 93px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            :nth-child(1) {
+              width: 11px;
+              height: 11px;
+              background: #fc7722;
+            }
+            :nth-child(2) {
+              width: 60px;
+              height: 27px;
+              // background: #56eeff;
+              font-size: 16px;
+              font-family: "MF_LangQian";
+              line-height: 27px;
+              text-align: center;
+              color: #cce6fe;
+              letter-spacing: 0px;
+            }
+          }
+          .legend3s {
+            width: 93px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            :nth-child(1) {
+              width: 11px;
+              height: 11px;
+              background: #3393f5;
+            }
+            :nth-child(2) {
+              width: 60px;
+              height: 27px;
+              // background: #56eeff;
+              font-size: 16px;
+              font-family: "MF_LangQian";
+              line-height: 27px;
+              text-align: center;
+              color: #cce6fe;
+              letter-spacing: 0px;
+            }
+          }
+        }
+      } 
+    }
+  }
+  .xingwei2{
+    width: 1350px;
+    height: 355px;
+    // background: yellow;
+    // opacity: 0.3;
+    position: absolute;
+    left: 0px;
+    top: 725px;
+    .total{
+      width: 61px;
+      height: 33px;
+      position: absolute;
+      left: 45px;
+      top: 80px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 33px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 4px;
+    }
+    .totalnum{
+      width: 172px;
+      height: 34px;
+      position: absolute;
+      left: 103px;
+      top: 80px;
+    };
+    .huan2{
+      width: 276px;
+      height: 241px;
+      // background: yellow;
+      position: absolute;
+      left: 0px;
+      top: 112px;
+      #v31echarts-5 {
+        width: 200px;
+        height: 200px;
+        // background: yellow;
+        position: absolute;
+        left: 44px;
+        top: 8px;
+      };
+      .span1{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 9px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #00ffff;
+      }
+      .span2{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 22px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #00ff00;
+      }
+      .span3{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 35px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #df9f3b;
+      }
+      .span4{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 48px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #ffff00;
+      }
+      .span5{
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 148px;
+        top: 62px;
+        font-size: 2px;
+        font-family: "MF_LangQian";
+        line-height: 4px;
+        text-align: center;
+        color: #eb601b;
+      }
+    }
+    .yonghushu{
+      width: 94px;
+      height: 33px;
+      position: absolute;
+      left: 347px;
+      top: 96px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 33px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .top5{
+      width: 249px;
+      height: 209px;
+      // background: yellow;
+      position: absolute;
+      left: 258px;
+      top: 130px;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      li {
+        list-style: none;
+        width: 249px;
+        height: 30px;
+        // background: #cfecec;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        :nth-child(1) {
+          width: 54px;
+          height: 20px;
+          font-size: 14px;
+          font-family: "MF_LangQian";
+          line-height: 20px;
+          text-align: center;
+          color: #cce6fe;
+          letter-spacing: 0px;
+        }
+        :nth-child(2) {
+          width: 113px;
+          height: 20px;
+          font-size: 14px;
+          font-family: "MF_LangQian";
+          line-height: 14px;
+          text-align: center;
+          color: #cce6fe;
+          letter-spacing: 0px;
+        }
+        :nth-child(3) {
+          width: 95px;
+          height: 20px;
+          font-size: 14px;
+          font-family: "MF_LangQian";
+          line-height: 16px;
+          text-align: center;
+          color: #00ffff;
+          letter-spacing: 2px;
+        }
+      }
+    }
+    .yonghufengbu{
+      width: 124px;
+      height: 43px;
+      // background: yellow;
+      // opacity: 0.3;
+      position: absolute;
+      left: 860px;
+      top: 63px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 43px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 0px;
+    }
+    .women{
+      width: 71px;
+      height: 43px;
+      // background: yellow;
+      // opacity: 0.3;
+      position: absolute;
+      left: 560px;
+      top: 109px;
+      font-size: 24px;
+      font-family: "MF_LangQian";
+      line-height: 43px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing:4px;
+    }
+    .womenzhanbi{
+      width: 159px;
+      height: 39px;
+      // background: yellow;
+      background: url(./img/women.jpg) no-repeat center;
+      background-size: 100% 80%;
+      position: absolute;
+      left: 637px;
+      top: 111px;
+      .wzhezhao{
+        width: 50px;
+        height: 34px;
+        position: absolute;
+        background: #000000;
+        opacity: 0.4;
+        right: 0;
+        top: 2px;
+      }
+    }
+    .womennum{
+      width: 115px;
+      height: 39px;
+      position: absolute;
+      left: 796px;
+      top: 112px;
+    }
+    .man{
+      width: 71px;
+      height: 43px;
+      // background: yellow;
+      // opacity: 0.3;
+      position: absolute;
+      left: 939px;
+      top: 109px;
+      font-size: 24px;
+      font-family: "MF_LangQian";
+      line-height: 43px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing:4px; 
+    }
+    .manzhanbi{
+      width: 159px;
+      height: 39px;
+      // background: yellow;
+      background: url(./img/man.jpg) no-repeat center;
+      background-size: 100% 80%;
+      position: absolute;
+      left: 1015px;
+      top: 111px;
+      .mzhezhao{
+        width: 50px;
+        height: 34px;
+        position: absolute;
+        background: #000000;
+        opacity: 0.4;
+        right: 0;
+        top: 2px;
+      }
+    }
+    .mannum{
+      width: 115px;
+      height: 39px;
+      position: absolute;
+      left: 1177px;
+      top: 112px;
+    }
+    .yibiaopan{
+      width: 765px;
+      height: 196px;
+      // background: yellow;
+      position: absolute;
+      left: 544px;
+      top: 155px;
+      #v31echarts-6{
+        width: 136px;
+        height: 136px;
+        position: absolute;
+        left: 20px;
+        top: 24px;
+        border-radius: 50%;
+      }
+      #v31echarts-7{
+        width: 102px;
+        height: 102px;
+        // background: yellow;
+        position: absolute;
+        left: 195px;
+        top: 40px;
+        border-radius: 50%;
+      }
+      #v31echarts-8{
+        width: 107px;
+        height: 107px;
+        // background: yellow;
+        position: absolute;
+        left: 328px;
+        top: 33px;
+        border-radius: 50%;
+      }
+      #v31echarts-9 {
+        width: 83px;
+        height: 83px;
+        // background: yellow;
+        position: absolute;
+        left: 483px;
+        top: 50px;
+        border-radius: 50%;
+      }
+      #v31echarts-10 {
+        width: 136px;
+        height: 136px;
+        position: absolute;
+        left: 607px;
+        top: 26px;
+        border-radius: 50%;
+      }
+      .shuzi111 {
+        width: 70px;
+        height: 24px;
+        // background: yellow;
+        position: absolute;
+        left: 56px;
+        top: 60px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 71px;
+        text-align: center;
+        color: yellow;
+        letter-spacing: 0px;
+      }
+      .shuzi211 {
+        width: 70px;
+        height: 24px;
+        // background: yellow;
+        position: absolute;
+        left: 212px;
+        top: 56px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 71px;
+        text-align: center;
+        color: yellow;
+        letter-spacing: 0px;
+      }
+      .shuzi311 {
+        width: 70px;
+        height: 24px;
+        // background: yellow;
+        position: absolute;
+        left: 348px;
+        top: 52px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 71px;
+        text-align: center;
+        color: yellow;
+        letter-spacing: 0px;
+      }
+      .shuzi411 {
+        width: 70px;
+        height: 24px;
+        // background: yellow;
+        position: absolute;
+        left: 490px;
+        top: 56px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 71px;
+        text-align: center;
+        color: yellow;
+        letter-spacing: 0px;
+      }
+      .shuzi511 {
+        width: 70px;
+        height: 24px;
+        // background: yellow;
+        position: absolute;
+        left: 640px;
+        top: 56px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 71px;
+        text-align: center;
+        color: yellow;
+        letter-spacing: 0px;
+      }
+      .word1 {
+        width: 141px;
+        height: 36px;
+        position: absolute;
+        // background: yellow;
+        left: 14px;
+        top: 160px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 48px;
+        text-align: center;
+        color: #cce6fe;
+        letter-spacing: 0px;
+      }
+      .word2 {
+        width: 141px;
+        height: 36px;
+        position: absolute;
+        // background: yellow;
+        left: 173px;
+        top: 160px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 48px;
+        text-align: center;
+        color: #cce6fe;
+        letter-spacing: 0px;
+      }
+      .word3 {
+        width: 141px;
+        height: 36px;
+        position: absolute;
+        // background: yellow;
+        left: 312px;
+        top: 160px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 48px;
+        text-align: center;
+        color: #cce6fe;
+        letter-spacing: 0px;
+      }
+      .word4 {
+        width: 141px;
+        height: 36px;
+        position: absolute;
+        // background: yellow;
+        left: 456px;
+        top: 160px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 48px;
+        text-align: center;
+        color: #cce6fe;
+        letter-spacing: 0px;
+      }
+      .word5 {
+        width: 141px;
+        height: 36px;
+        position: absolute;
+        // background: yellow;
+        left: 608px;
+        top: 160px;
+        font-size: 14px;
+        font-family: "MF_LangQian";
+        line-height: 48px;
+        text-align: center;
+        color: #cce6fe;
+        letter-spacing: 0px;
+      }
+    }
+  }
+  .tuifu{
+    width: 678px;
+    height: 219px;
+    position: absolute;
+    left: 644px;
+    top: 131px;
+    #v31echarts-11{
+      width: 678px;
+      height: 219px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .danwei{
+      width: 88px;
+      height: 36px;
+      position: absolute;
+      right: 100px;
+      top: -16px;
+      font-size: 20px;
+      font-family: "MF_LangQian";
+      line-height: 36px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 2px;
+    }
+    .fang1{
+      width: 16px;
+      height: 16px;
+      background: #0ac5d6;
+      position: absolute;
+      left: 172px;
+      top: 220px;
+    }
+    .fang1s{
+      width: 128px;
+      height: 24px;
+      position: absolute;
+      left: 190px;
+      top: 216px;
+      font-size: 16px;
+      font-family: "MF_LangQian";
+      line-height: 24px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 2px;
+    }
+    .fang2{
+      width: 16px;
+      height: 16px;
+      background: #f1e40d;
+      position: absolute;
+      left: 406px;
+      top: 220px;
+    }
+    .fang2s{
+      width: 128px;
+      height: 24px;
+      position: absolute;
+      left: 423px;
+      top: 216px;
+      font-size: 16px;
+      font-family: "MF_LangQian";
+      line-height: 24px;
+      text-align: center;
+      color: #cce6fe;
+      letter-spacing: 2px;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+#middle {
+  position: absolute;
+  left: 1200px;
+  top: 0;
+  width: 2160px;
+  height: 1200px;
+  box-sizing: border-box;
+  color: white;
+
+  #title{
+    position: absolute;
+    left: 720px;
+    top: 60px;
+    display: none;
+  }
+
+  #header {
+    position: absolute;
+    left: 45px;
+    top: 174px;
+    width: 2050px;
+    height: 90px;
+    color: white;
+
+    #scene-btn, #top-btn ,#heatmap-btn{
+      position: absolute;
+      top: 0px;
+      width: 243px;
+      height: 91px;
+      line-height: 88px;
+      text-align: center;
+      font-size: 28px;
+      cursor: pointer;
+    }
+    #heatmap-btn{
+      left:300px;
+    }
+    #scene-btn {
+      left: 850px;
+    }
+    #top-btn {
+      right: 350px;
+    }
+    .scene-top-btn-active{
+      background: url('../../assets/img/tab.png')
+    }
+  }
+  #content {
+    position: absolute;
+    left: 71px;
+    top: 262px;
+    width: 1998px;
+    height: 817px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .content-for-top{
+    background: black url('../../assets/img/space.png');
+  }
+
+  #scene {
+    width: 100%;
+    height: 100%;
+  }
+}

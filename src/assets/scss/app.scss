@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#app{
+  position: absolute;
+  font-family: "Microsoft Yahei", "微软雅黑";
+}
+#popup {
+  width: 4800px;
+  height: 1200px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+  div {
+    box-sizing: border-box;
+  }
+}
+
+.app {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.view {
+  position: absolute;
+}
+
+.view-action {
+  border-radius: 1%;
+  box-shadow: inset 0px 0px 80px #66b3ff;
+  background-color: rgba(102, 181, 255, 0.1);
+}
+
+// 弹窗
+.popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999
+}
+
+.popup-active {
+  display: flex;
+}
+
+.slide-up-leave-active,
+.slide-up-enter-active {
+  transition: all 1s;
+}
+
+.slide-up-enter,
+.slide-up-leave-active {
+  transform: rotateY(90deg);
+  opacity: 0
+}
+
+.a1-title {
+  position: absolute;
+  color: #80EAFD;
+  font-size: 42px;
+  text-shadow: 0 0 1px #80EAFD, 0 0 3px #ffffff;
+  span {
+    background: #80EAFD;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    border: 1px solid #80EAFD;
+    box-shadow: 0 0 1px #80EAFD, 0 0 3px #ffffff;
+  }
+  label {
+    position: absolute;
+    left: 50px;
+  }
+  >div {
+    position: absolute;
+    width: 107%;
+    height: 1px;
+    background-color: #2676D0;
+    bottom: 0px;
+    left: -3%;
+    box-shadow: 0 0 1px #2676D0;
+    div:first-child {
+      position: absolute;
+      width: 20px;
+      height: 5px;
+      border-radius: 2px;
+      background: #80EAFD;
+      left: 0px;
+      top: -2px;
+      box-shadow: 0 0 1px #80EAFD, 0 0 3px #ffffff;
+    }
+    div:nth-child(2) {
+      position: absolute;
+      width: 20px;
+      height: 5px;
+      border-radius: 1px;
+      background: #80EAFD;
+      right: 0px;
+      top: -2px;
+      box-shadow: 0 0 1px #80EAFD, 0 0 3px #ffffff;
+    }
+  }
+}
